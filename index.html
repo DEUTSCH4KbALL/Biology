@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гіподинамія – ворог сучасної людини</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./js/index.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h3>Гіподинамія – ворог сучасної людини</h3>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Головна</a></li>
+                <li><a href="./hiperdynamia.html">Про гіподинамію</a></li>
+                <li><a href="./effects.html">Наслідки</a></li>
+                <li><a href="./solutions.html">Рішення</a></li>
+                <li><a href="./contact.html">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>Що таке гіподинамія?</h2>
+            <p>Гіподинамія – це стан, при якому рівень фізичної активності людини є недостатнім. Це може призвести до
+                різних захворювань і негативних наслідків для здоров'я.</p>
+        </section>
+        <section id="effects">
+            <h2>Наслідки гіподинамії</h2>
+            <ul>
+                <li>Ожиріння</li>
+                <li>Серцево-судинні захворювання</li>
+                <li>Цукровий діабет</li>
+                <li>Проблеми з опорно-руховим апаратом</li>
+            </ul>
+        </section>
+        <section id="solutions">
+            <h2>Як боротися з гіподинамією?</h2>
+            <p>Ось кілька простих порад, як підвищити рівень фізичної активності:</p>
+            <ul>
+                <li>Регулярні прогулянки на свіжому повітрі</li>
+                <li>Заняття спортом або фітнесом</li>
+                <li>Використання сходів замість ліфта</li>
+                <li>Актівні паузи під час роботи або навчання</li>
+            </ul>
+        </section>
+        <section id="gallery">
+            <h2>Галерея</h2>
+            <div class="gallery">
+                <div class="gallery-item"><img src="./img/1.jpg" alt="Image 1"></div>
+                <div class="gallery-item"><img src="./img/2.jpg" alt="Image 2"></div>
+                <div class="gallery-item"><img src="./img/3.png" alt="Image 3"></div>
+            </div>
+        </section>
+        <section id="activity">
+            <h2>Ваші дії</h2>
+            <p>Скільки хвилин фізичної активності ви плануєте на сьогодні?</p>
+            <input type="number" id="activityInput" placeholder="Введіть кількість хвилин">
+            <button onclick="logActivity()">Зберегти</button>
+            <p id="result"></p>
+        </section>
+        <section id="contact">
+            <h2>Контакти</h2>
+            <p>Зв'яжіться з нами за допомогою цієї форми:</p>
+            <form id="contactForm" action="index.php" method="POST">
+                <input type="text" id="name" name="name" placeholder="Ваше ім'я" required>
+                <input type="email" id="email" name="email" placeholder="Ваш email" required>
+                <textarea id="message" name="message" placeholder="Ваше повідомлення" required></textarea>
+                <button type="submit">Відправити</button>
+            </form>
+            </form>
+            <p id="contactResult"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Гіподинамія – ворог сучасної людини</p>
+    </footer>
+</body>
+
+</html>
